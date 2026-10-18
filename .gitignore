@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.next/
+out/
+
+# Python Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment & Secrets
+.env
+.env.local
+*.env
+.envrc
+
+# System
+.DS_Store
+Thumbs.db
+
+# Large raw datasets (keep git lightweight)
+data/creditcard.csv
+data/*.csv
+
+# Model pickle backups
+*.pkl
